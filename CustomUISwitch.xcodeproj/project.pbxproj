@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4701B2CB1763155A00F19078 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4701B2CA1763155A00F19078 /* UIKit.framework */; };
+		4701B2CD1763155A00F19078 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4701B2CC1763155A00F19078 /* Foundation.framework */; };
+		4701B2CF1763155A00F19078 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4701B2CE1763155A00F19078 /* CoreGraphics.framework */; };
+		4701B2D51763155A00F19078 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4701B2D31763155A00F19078 /* InfoPlist.strings */; };
+		4701B2D71763155A00F19078 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4701B2D61763155A00F19078 /* main.m */; };
+		4701B2DB1763155A00F19078 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4701B2DA1763155A00F19078 /* AppDelegate.m */; };
+		4701B2DD1763155A00F19078 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4701B2DC1763155A00F19078 /* Default.png */; };
+		4701B2DF1763155A00F19078 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4701B2DE1763155A00F19078 /* Default@2x.png */; };
+		4701B2E11763155A00F19078 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4701B2E01763155A00F19078 /* Default-568h@2x.png */; };
+		4701B2E91763159400F19078 /* CustomSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4701B2E81763159400F19078 /* CustomSwitch.m */; };
+		4701B2EB176315E000F19078 /* CustomSwitch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4701B2EA176315E000F19078 /* CustomSwitch.xib */; };
+		4701B2EF1763163D00F19078 /* TestSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4701B2ED1763163D00F19078 /* TestSwitchViewController.m */; };
+		4701B2F01763163D00F19078 /* TestSwitchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4701B2EE1763163D00F19078 /* TestSwitchViewController.xib */; };
+		4701B2F61763189500F19078 /* switchOne_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4701B2F21763189500F19078 /* switchOne_off@2x.png */; };
+		4701B2F71763189500F19078 /* switchOne_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4701B2F31763189500F19078 /* switchOne_on@2x.png */; };
+		4701B2F81763189500F19078 /* switchTwo_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4701B2F41763189500F19078 /* switchTwo_off@2x.png */; };
+		4701B2F91763189500F19078 /* switchTwo_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4701B2F51763189500F19078 /* switchTwo_on@2x.png */; };
+		4701B336176320CB00F19078 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4701B335176320CB00F19078 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4701B2C71763155A00F19078 /* CustomUISwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomUISwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4701B2CA1763155A00F19078 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4701B2CC1763155A00F19078 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4701B2CE1763155A00F19078 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4701B2D21763155A00F19078 /* CustomUISwitch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomUISwitch-Info.plist"; sourceTree = "<group>"; };
+		4701B2D41763155A00F19078 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4701B2D61763155A00F19078 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4701B2D81763155A00F19078 /* CustomUISwitch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomUISwitch-Prefix.pch"; sourceTree = "<group>"; };
+		4701B2D91763155A00F19078 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4701B2DA1763155A00F19078 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4701B2DC1763155A00F19078 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4701B2DE1763155A00F19078 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4701B2E01763155A00F19078 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4701B2E71763159400F19078 /* CustomSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSwitch.h; sourceTree = "<group>"; };
+		4701B2E81763159400F19078 /* CustomSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSwitch.m; sourceTree = "<group>"; };
+		4701B2EA176315E000F19078 /* CustomSwitch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomSwitch.xib; sourceTree = "<group>"; };
+		4701B2EC1763163D00F19078 /* TestSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSwitchViewController.h; sourceTree = "<group>"; };
+		4701B2ED1763163D00F19078 /* TestSwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSwitchViewController.m; sourceTree = "<group>"; };
+		4701B2EE1763163D00F19078 /* TestSwitchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestSwitchViewController.xib; sourceTree = "<group>"; };
+		4701B2F21763189500F19078 /* switchOne_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switchOne_off@2x.png"; sourceTree = "<group>"; };
+		4701B2F31763189500F19078 /* switchOne_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switchOne_on@2x.png"; sourceTree = "<group>"; };
+		4701B2F41763189500F19078 /* switchTwo_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switchTwo_off@2x.png"; sourceTree = "<group>"; };
+		4701B2F51763189500F19078 /* switchTwo_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switchTwo_on@2x.png"; sourceTree = "<group>"; };
+		4701B335176320CB00F19078 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4701B2C41763155A00F19078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4701B336176320CB00F19078 /* QuartzCore.framework in Frameworks */,
+				4701B2CB1763155A00F19078 /* UIKit.framework in Frameworks */,
+				4701B2CD1763155A00F19078 /* Foundation.framework in Frameworks */,
+				4701B2CF1763155A00F19078 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4701B2BE1763155A00F19078 = {
+			isa = PBXGroup;
+			children = (
+				4701B2D01763155A00F19078 /* CustomUISwitch */,
+				4701B2C91763155A00F19078 /* Frameworks */,
+				4701B2C81763155A00F19078 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4701B2C81763155A00F19078 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4701B2C71763155A00F19078 /* CustomUISwitch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4701B2C91763155A00F19078 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4701B335176320CB00F19078 /* QuartzCore.framework */,
+				4701B2CA1763155A00F19078 /* UIKit.framework */,
+				4701B2CC1763155A00F19078 /* Foundation.framework */,
+				4701B2CE1763155A00F19078 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4701B2D01763155A00F19078 /* CustomUISwitch */ = {
+			isa = PBXGroup;
+			children = (
+				4701B2D91763155A00F19078 /* AppDelegate.h */,
+				4701B2DA1763155A00F19078 /* AppDelegate.m */,
+				4701B2E71763159400F19078 /* CustomSwitch.h */,
+				4701B2E81763159400F19078 /* CustomSwitch.m */,
+				4701B2EA176315E000F19078 /* CustomSwitch.xib */,
+				4701B2EC1763163D00F19078 /* TestSwitchViewController.h */,
+				4701B2ED1763163D00F19078 /* TestSwitchViewController.m */,
+				4701B2EE1763163D00F19078 /* TestSwitchViewController.xib */,
+				4701B2F11763189500F19078 /* TestImage */,
+				4701B2D11763155A00F19078 /* Supporting Files */,
+			);
+			path = CustomUISwitch;
+			sourceTree = "<group>";
+		};
+		4701B2D11763155A00F19078 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4701B2D21763155A00F19078 /* CustomUISwitch-Info.plist */,
+				4701B2D31763155A00F19078 /* InfoPlist.strings */,
+				4701B2D61763155A00F19078 /* main.m */,
+				4701B2D81763155A00F19078 /* CustomUISwitch-Prefix.pch */,
+				4701B2DC1763155A00F19078 /* Default.png */,
+				4701B2DE1763155A00F19078 /* Default@2x.png */,
+				4701B2E01763155A00F19078 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4701B2F11763189500F19078 /* TestImage */ = {
+			isa = PBXGroup;
+			children = (
+				4701B2F21763189500F19078 /* switchOne_off@2x.png */,
+				4701B2F31763189500F19078 /* switchOne_on@2x.png */,
+				4701B2F41763189500F19078 /* switchTwo_off@2x.png */,
+				4701B2F51763189500F19078 /* switchTwo_on@2x.png */,
+			);
+			path = TestImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4701B2C61763155A00F19078 /* CustomUISwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4701B2E41763155A00F19078 /* Build configuration list for PBXNativeTarget "CustomUISwitch" */;
+			buildPhases = (
+				4701B2C31763155A00F19078 /* Sources */,
+				4701B2C41763155A00F19078 /* Frameworks */,
+				4701B2C51763155A00F19078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomUISwitch;
+			productName = CustomUISwitch;
+			productReference = 4701B2C71763155A00F19078 /* CustomUISwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4701B2BF1763155A00F19078 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 4701B2C21763155A00F19078 /* Build configuration list for PBXProject "CustomUISwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4701B2BE1763155A00F19078;
+			productRefGroup = 4701B2C81763155A00F19078 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4701B2C61763155A00F19078 /* CustomUISwitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4701B2C51763155A00F19078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4701B2D51763155A00F19078 /* InfoPlist.strings in Resources */,
+				4701B2DD1763155A00F19078 /* Default.png in Resources */,
+				4701B2DF1763155A00F19078 /* Default@2x.png in Resources */,
+				4701B2E11763155A00F19078 /* Default-568h@2x.png in Resources */,
+				4701B2EB176315E000F19078 /* CustomSwitch.xib in Resources */,
+				4701B2F01763163D00F19078 /* TestSwitchViewController.xib in Resources */,
+				4701B2F61763189500F19078 /* switchOne_off@2x.png in Resources */,
+				4701B2F71763189500F19078 /* switchOne_on@2x.png in Resources */,
+				4701B2F81763189500F19078 /* switchTwo_off@2x.png in Resources */,
+				4701B2F91763189500F19078 /* switchTwo_on@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4701B2C31763155A00F19078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4701B2D71763155A00F19078 /* main.m in Sources */,
+				4701B2DB1763155A00F19078 /* AppDelegate.m in Sources */,
+				4701B2E91763159400F19078 /* CustomSwitch.m in Sources */,
+				4701B2EF1763163D00F19078 /* TestSwitchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4701B2D31763155A00F19078 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4701B2D41763155A00F19078 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4701B2E21763155A00F19078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4701B2E31763155A00F19078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4701B2E51763155A00F19078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomUISwitch/CustomUISwitch-Prefix.pch";
+				INFOPLIST_FILE = "CustomUISwitch/CustomUISwitch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4701B2E61763155A00F19078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomUISwitch/CustomUISwitch-Prefix.pch";
+				INFOPLIST_FILE = "CustomUISwitch/CustomUISwitch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4701B2C21763155A00F19078 /* Build configuration list for PBXProject "CustomUISwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4701B2E21763155A00F19078 /* Debug */,
+				4701B2E31763155A00F19078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4701B2E41763155A00F19078 /* Build configuration list for PBXNativeTarget "CustomUISwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4701B2E51763155A00F19078 /* Debug */,
+				4701B2E61763155A00F19078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4701B2BF1763155A00F19078 /* Project object */;
+}
